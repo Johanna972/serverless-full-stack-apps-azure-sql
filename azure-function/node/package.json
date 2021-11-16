@@ -1,7 +1,8 @@
 {
   "scripts": {
     "prettier": "prettier --write ./",
-    "lint":"eslint ./"
+    "lint":"eslint ./",
+    "check-quality":"eslint ./ --no-fix --max-warnings 0"
   },
   "dependencies": {
     "mssql": "^6.3.1",
